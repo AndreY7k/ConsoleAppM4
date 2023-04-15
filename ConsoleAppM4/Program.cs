@@ -127,7 +127,11 @@ namespace ConsoleAppM4
                     Console.WriteLine("Your color is cyan!");
                     break;
             }
-
+            // return — это выход из метода.
+            
+            // goto case — позволяет перейти к другому условию внутри блока switch.
+            
+            // throw применяется для выбора ошибок.
         }
     }
 }
