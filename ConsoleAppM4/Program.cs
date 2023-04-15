@@ -98,6 +98,7 @@ namespace ConsoleAppM4
             }
 
             //Добавить новый цвет консоли через конструкцию switch.
+            
             var color1 = Console.ReadLine();
 
             switch (color1) 
@@ -108,6 +109,7 @@ namespace ConsoleAppM4
                     Console.ForegroundColor = ConsoleColor.Black;
 
                     Console.WriteLine("Your color is red!");
+                    break;
 
                 case "green":
 
@@ -115,12 +117,15 @@ namespace ConsoleAppM4
                     Console.ForegroundColor = ConsoleColor.Black;
 
                     Console.WriteLine("Your color is green!");
+                    break;
 
                 default:
+
                     Console.BackgroundColor = ConsoleColor.Cyan;
                     Console.ForegroundColor = ConsoleColor.Black;
 
                     Console.WriteLine("Your color is cyan!");
+                    break;
             }
 
         }
