@@ -175,11 +175,12 @@ namespace ConsoleAppM4
             }
 
             //Задание 4.2.11
-            int t = 0; 
+            int t = 0;
 
             do
             {
                 Console.WriteLine(t);
+
                 Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
                 switch (Console.ReadLine())
                 {
@@ -218,6 +219,7 @@ namespace ConsoleAppM4
 
                 t++;
             } while (t < 3);
+
         }
     }
 }
