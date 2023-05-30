@@ -1,8 +1,4 @@
-﻿using System.Drawing;
-using System.Net.Sockets;
-using System.Net.WebSockets;
-using System.Security.Cryptography;
-
+﻿/*
 namespace ConsoleAppM4
 {
     internal class Program
@@ -11,7 +7,7 @@ namespace ConsoleAppM4
         {
             var arr = new int[] { 5, 6, 9, 1, 2, 3, 4 };
 
-            for (int i = 0; i < arr.Length; i++) 
+            for (int i = 0; i < arr.Length; i++)
             {
                 for (int k = 0; k < arr.Length; k++)
                 {
@@ -21,9 +17,7 @@ namespace ConsoleAppM4
                         arr[i] = arr[k];
                         arr[k] = a;
                     }
-
-                }    
-            
+                }
             }
             foreach (var item in arr)
             {
@@ -33,3 +27,4 @@ namespace ConsoleAppM4
         }
     }
 }
+*/
