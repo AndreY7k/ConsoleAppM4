@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿/*
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Net.Sockets;
 using System.Net.WebSockets;
@@ -13,7 +14,7 @@ namespace ConsoleAppM4
             (string name, int age) anketa;
             Console.WriteLine("Введите ваше имя: ");
             anketa.name = Console.ReadLine();
-            
+
             Console.WriteLine("Введите ваш возраст: ");
             anketa.age = Convert.ToInt32(Console.ReadLine());
 
@@ -21,3 +22,4 @@ namespace ConsoleAppM4
         }
     }
 }
+*/
